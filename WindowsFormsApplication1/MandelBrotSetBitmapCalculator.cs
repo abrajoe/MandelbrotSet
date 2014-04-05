@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
             int threadRows = bitmap.Height / numThreads; //the number of rows one thread processes
 
             Thread[] preciousLittleThreadies = new Thread[numThreads];
-            Parallel.For(0, bitmap.Height, new Action());
+            
 
 
             for (int i = 0; i < numThreads; i++)

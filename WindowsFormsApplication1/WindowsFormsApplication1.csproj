@@ -68,7 +68,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MandelBrotSetCalculator.cs" />
-    <Compile Include="MandelSetCalculator.cs" />
+    <Compile Include="MandelBrotSetBitmapCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
